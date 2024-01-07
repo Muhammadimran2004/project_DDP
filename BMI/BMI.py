@@ -39,7 +39,7 @@ center_window(root, 400, 300)
 style = Style(theme="vapor")
 
 # Load background image
-bg_image = Image.open("D:\\DDP\\dddp\\image\\BMI 2.jpg")
+bg_image = Image.open("D:\\DDP\\BMI\\image\\BMI 2.jpg")
 bg_image = bg_image.resize((1550, 800))  # Sesuaikan dengan ukuran jendela Anda
 bg_image = ImageTk.PhotoImage(bg_image)
 
